@@ -5,3 +5,4 @@ jobs:
     runs-on: codebuild-cicd-github-actions-${{ github.run_id }}-${{ github.run_attempt }}-ubuntu-7.0-large
     steps:
       - run: echo "Hello World!"
+      - run: echo "GitHub connection Test"
