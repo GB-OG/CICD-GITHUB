@@ -1,5 +1,5 @@
 name: Hello WORLD & GITHUB 
-on: [push] github-connection
+on: [push]
 jobs:  
   Hello-GIT-Job:
     runs-on: codebuild-cicd-github-connection-${{ github.run_id }}-${{ github.run_attempt }}-ubuntu-7.0-large
